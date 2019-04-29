@@ -18,7 +18,20 @@
 .right-section{
 	width:68%;
 	float:right;
-}  
+} 
+footer{
+	 width:64.5%;
+     margin:0px 15px;
+     margin-top:15px;
+     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);float:right;
+    height:200px;
+    text-align: center;
+    background-color: var(--acolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
 
 }
 /* Mobile Layout: 320px. */
@@ -26,6 +39,31 @@
 .left-section{
 	margin-bottom: 30px;
 }
+.left-section{
+    position: initial;
+    width:100%;
+    background-color: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+   
+}
+.all-section{
+margin: 15px 0px;
+}
+footer{
+	width:100%;
+	margin: 0px;
+    margin-top:15px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);float:right;
+    height:200px;
+    text-align: center;
+    padding: 0px 10px;
+    background-color: var(--acolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
