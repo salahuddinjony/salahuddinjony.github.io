@@ -33,7 +33,12 @@ h6 {
 }
 html,
 body { height: 100% }
-
+body{
+     background-color: #DADADA;
+}
+:root{
+    --acolor:#3498db;
+}
 
 .test {font-family: 'Lato', sans-serif;}
 a {
@@ -45,7 +50,189 @@ a {
 }
 a:hover { text-decoration: none }
 .all-section{
-    margin: 10px;
+    margin:15px 0px;
+}
+.left-section{
+    background-color: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+   
+}
+.about-content{
+     padding:20px 20px 20px 20px;
+}
+.right-section{
+    background-color: #fff;
+}
+.logo img{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.logo{
+   position: relative;
+}
+.logo h1{
+    position: absolute;
+    left:10px;
+    bottom: 0;
+    color:#3498db;
+    margin-bottom: 20px;
+}
+.about-me{}
+.about-me p,a{
+    font-size:15px;
+    color:#616161;
+    padding: 5px 0px;
+}
+.about-me p:last-child{
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom:20px;
+}
+.about-me p span{
+    padding-right:15px;
+}
+.about-me p span i{
+    font-size: 20px;
+    color:#3498db; 
+}
+.skills{}
+.skills h4{
+    padding: 20px 0px;
+    color: #616161;
+}
+.skills h4 span i{
+    padding-right:10px;
+    color: var(--acolor);
+}
+.progress-bar,.progress{
+    border-radius: 50px;
+}
+.progress-bar{
+ background-color:#3498db;
+}
+.language{
+    padding: 10px 0px;
+}
+.language h4{
+    color: #616161;
+    padding: 20px 0px;
+
+}
+.language h4 span i{
+    padding-right:10px;
+    color: var(--acolor);
+}
+.current-status{
+    padding: 10px 0px;
+}
+.current-status h4{
+    color: #616161;
+    padding: 20px 0px;
+}
+.current-status h4 span i{
+    padding-right:10px;
+    color: var(--acolor);
+}
+.current-status{
+}
+.status{
+    text-align: center;
+    background-color: var(--acolor);
+    padding:20px 0px 15px 0px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+
+}
+.status h4{
+    color:#fff;
 }
 
+.right-section{
+    color: #616161;
+     padding:20px 20px 20px 20px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
 
+}
+.work-experience{
+    margin-bottom: 20px;
+}
+.work-experience h2{}
+.work-experience h2 span,h2{
+    color: var(--acolor)
+}
+.work-experience h2 span i{
+    padding-right: 10px;
+    padding: 10px 0px 20px 0px;
+}
+.badge{
+     background-color: var(--acolor);
+     margin-left: 10px;
+     padding: 5px 10px; 
+}
+section p{
+}
+section p span i{
+    padding-right: 10px;
+    color: var(--acolor);
+}
+section{
+    padding: 25px 0px 20px 0px;
+     border-bottom: 1px solid #EEEEEE;
+    padding-bottom:20px;
+}
+.border-none{
+     border-bottom:0px solid #EEEEEE;
+}
+.education-section{}
+.education-section h2{
+    padding: 20px 0px;
+}
+.education-section h4{}
+.edu,.contact-from{
+    margin-top:30px;
+}
+.contact-section{
+    padding: 20px 0px;
+}
+.contact-section h4{
+    padding: 20px 0px;
+}
+.contact-section input,textarea{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    padding: 15px;
+    outline: none;
+
+}
+textarea{
+    height: 100px;
+    resize: none;
+}
+.contact-section button{
+    padding: 15px 50px;
+    margin-top: 20px;
+}
+footer{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height:200px;
+    text-align: center;
+    background-color: var(--acolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.social-media{
+    display: inline-block;
+
+}
+.social-media a{
+    font-size: 20px;
+    padding: 0px 10px;
+    color: #fff;
+}
+footer p{
+    padding-top: 20px;
+}

@@ -5,13 +5,27 @@
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
-    
+ .all-section{
+ 	/*display: grid;
+ 	grid-template-columns:1fr 1fr;
+ 	grid-template-rows: 1fr;*/
+
+ }
+.left-section{
+	width:30%;
+	float: left;
+}  
+.right-section{
+	width:68%;
+	float:right;
+}  
+
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
- 
-    
+.left-section{
+	margin-bottom: 30px;
+}
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
