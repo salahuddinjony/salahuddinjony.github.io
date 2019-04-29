@@ -72,11 +72,20 @@ a:hover { text-decoration: none }
    position: relative;
 }
 .logo h1{
-    position: absolute;
+   /* position: absolute;
     left:10px;
-    bottom: 0;
-    color:#3498db;
-    margin-bottom: 20px;
+    bottom: 0;*/
+    color:#fff;
+    font-size:28px;
+    text-align: center;
+    border-left-color: red;
+    display: inline-block;
+    background-color:#27ae60;
+    padding:5px 10px;
+    border-radius:0px 10px 10px 0px;
+    margin-top:15px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+
 }
 .about-me{}
 .about-me p,a{
