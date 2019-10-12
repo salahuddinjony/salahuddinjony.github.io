@@ -34,7 +34,7 @@ h6 {
 html,
 body { height: 100% }
 body{
-     background-color: #DADADA;
+     background-color: #000;
 }
 :root{
     --acolor:#3498db;
